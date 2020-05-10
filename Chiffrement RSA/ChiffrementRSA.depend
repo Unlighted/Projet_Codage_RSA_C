@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1544301695 source:c:\users\bella\desktop\programmation\programmation_c\chiffrement rsa\main.c
+	<stdio.h>
+	<stdlib.h>
+	"basicFunctions.h"
+	"advancedFunctions.h"
+
+1544302376 c:\users\bella\desktop\programmation\programmation_c\chiffrement rsa\basicfunctions.h
+
+1544302383 source:c:\users\bella\desktop\programmation\programmation_c\chiffrement rsa\basicfunctions.c
+	<stdio.h>
+	<stdlib.h>
+	"basicFunctions.h"
+
+1544302811 source:c:\users\bella\desktop\programmation\programmation_c\chiffrement rsa\advancedfunctions.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	"basicFunctions.h"
+	"advancedFunctions.h"
+
+1544305399 c:\users\bella\desktop\programmation\programmation_c\chiffrement rsa\advancedfunctions.h
+

@@ -1,0 +1,23 @@
+
+    int  sizeC, i;
+    sizeC = (sizeA>sizeB) ? sizeA : sizeB;
+    allocateNumber(&numberC, sizeC);
+    for(i=0; i<sizeA&&i<sizeB; i++){
+        numberC[i]=numberA[i]+numberB[i];
+    }
+    if(sizeA > sizeB){
+        while(i<sizeC){
+            numberC[i]=numberA[i];
+            i++;
+        }
+    }
+    else{
+        while(i<sizeC){
+            numberC[i]=numberB[i];
+            i++;
+        }
+    }
+
+    for(i=0;i<sizeC;i++) printf("%d\n",numberC[i]);
+    sizeC=rearrangeNumber(&numberC,sizeC);
+    return sizeC;

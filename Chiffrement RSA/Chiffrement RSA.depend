@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1540922264 source:c:\users\bella\desktop\programmation\programmation_c\chiffrement rsa\main.c
+	<stdio.h>
+	<stdlib.h>
+	"basicFunctions.h"
+
+1540922128 c:\users\bella\desktop\programmation\programmation_c\chiffrement rsa\basicfunctions.h
+
